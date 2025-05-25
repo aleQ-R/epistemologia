@@ -1,0 +1,94 @@
+/* Colores relajantes y suaves */
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #67a58e;
+    color: #2f3e46;
+  }
+
+  
+  .container {
+    display: flex;
+    background-color:#fdf6e3 ;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #4c8671;
+    padding: 20px;
+    min-height: 100vh;
+    position: sticky;
+    top: 0;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+
+  }
+  
+  .sidebar li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #4c8671;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar li:hover {
+    background-color: #1a6549;
+  }
+  
+  .sidebar li.selected {
+    background-color: #1a6549;
+  }
+  
+  .contenido {
+    flex-grow: 1;
+    padding: 40px;
+  }
+  
+  /* Secciones de contenido */
+  .parte {
+    display: none;
+  }
+  
+  .parte.visible {
+    display: block;
+    background-color: #f3f0e4;
+    border-top: #c9c6ba;
+    border-radius: 50;
+  }
+  
+  /* Libros */
+  .libro {
+    background-color: #f4f1e7;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  
+  .libro h2 {
+    margin-bottom: 10px;
+  }
+  
+  .libro img {
+    width: 180px;
+    border-radius: 6px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .libro p {
+    font-size: 16px;
+  }
+/* Footer */
+footer {
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: 2px solid #dcd2b8;
+  background-color: #f3f0e4;
+  border-radius: 10px;
+}
