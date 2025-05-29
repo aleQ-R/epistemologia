@@ -1,0 +1,162 @@
+/* Colores relajantes y suaves */
+
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #67a58e;
+    color: #2f3e46;
+  }
+
+  .logo-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 999; /* Siempre visible encima del contenido */
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1); /* efecto al pasar el cursor */
+}
+/* Estilo para el logo visible */
+.logo {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  z-index: 1000;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.logo img:hover {
+  transform: scale(1.1);
+}
+
+
+
+  .container {
+    display: flex;
+    background-color:#f2e1b3 ;
+    border-radius: 50px;
+  }
+  
+
+  
+  .sidebar {
+    width: 120px;
+    background-color: #4c8671;
+    padding: 20px;
+    min-height: 100vh;
+    position: sticky;
+    top: 0;
+    border-radius: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+
+  }
+  
+  .sidebar li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fdf6e3;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar li:hover {
+    background-color: #218063;
+    color: #fdf6e3;
+  }
+  
+  .sidebar li.selected {
+    background-color: #1a6549;
+    color: #fdf6e3;
+  }
+  
+  .contenido {
+    flex-grow: 1;
+    padding: 40px;
+    border-radius: 50px;
+    
+  }
+  
+  /* Secciones de contenido */
+  .parte {
+    display: none;
+  }
+  
+  .parte.visible {
+    display: block;
+    background-color: #f3f0e4;
+    border-top:2px solid #c9c6ba;
+   
+    
+    border-radius: 25px;
+  }
+  
+  /* Libros */
+  .libro {
+    background-color: #f4f1e7;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  
+  .libro h2 {
+    margin-bottom: 10px;
+  }
+  
+  .libro img {
+    width: 180px;
+    border-radius: 6px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .libro p {
+    font-size: 16px;
+  }
+
+/* Footer */
+footer {
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: 5px solid #dcd2b8;
+  background-color: #f3f0e4;
+  border-radius: 10px;
+}
+.boton-guia {
+  background-color: #218063;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px 20px;
+  margin: 10px auto;
+  border-radius: 8px;
+  cursor: pointer;
+  width: fit-content;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.boton-guia:hover {
+  background-color: #004d66;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+

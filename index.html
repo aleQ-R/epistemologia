@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+      <meta charset="UTF-8">
+      <title>Epistemología</title>
+      <link rel="icon" type="image/png" href="logo_sin_fondo.png">
+        
+        <link rel="stylesheet" href="diseno.css" />
+        <!-- Favicon: aparece en la pestaña del navegador -->
+<link rel="icon" href="logo.png" type="image/png">
+
+    </head>
+    <body>
+      <!-- Logo visible en la esquina -->
+<div class="logo">
+  <img src="logo_sin_fondo.png" alt="Logo de Epistemología">
+</div>
+
+        <div class="contenido"> 
+
+            <div class="container">
+                <!-- Menú lateral de navegación -->
+                <div class="sidebar">
+                    <ul>
+                        <li onclick="mostrarParte(1)" class="selected">Inicio</li>
+                        <li onclick="mostrarParte(2)">¿Qué es la Epistemología?</li>
+                        <li onclick="mostrarParte(3)">¿Qué pensaba Aristóteles sobre la ciencia?</li>
+                        <li onclick="mostrarParte(4)">Epistemología en la Ingeniería de Sistemas</li>
+                        <li onclick="mostrarParte(5)">Libros</li>
+                    </ul>
+                </div>
+                
+                <!-- Contenido principal -->
+                <main class="contenido">
+                  <section class="parte visible" style="position: relative;">
+
+  <!-- Imagen de fondo -->
+  <img src="fondo.jpeg" alt="Fondo de la pagina" style="width: 100%; height: auto; display: block;">
+
+  <!-- Contenido encima de la imagen -->
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+              display: flex; align-items: center; justify-content: center; 
+              padding: 2rem;">
+    
+    <div style="background-color: rgba(253, 250, 246, 0.9); padding: 2rem; max-width: 800px; 
+                text-align: center; border-radius: 10px;">
+      
+      <h1 style="font-size: 2rem; font-weight: bold; color: #2f2f2f;">
+        "Conocer no es poseer la verdad, sino aprender a buscarla."
+      </h1>
+      
+      <p style="margin-top: 1.5rem; font-size: 1.1rem; line-height: 1.6; color: #444;">
+        La epistemología es la rama de la filosofía que se pregunta por el conocimiento: 
+        ¿Qué significa saber algo? ¿Cómo distinguimos la verdad del error? <br><br>
+        En esta página, exploraremos las principales teorías, corrientes y problemas que rodean el acto de conocer. 
+        A través de una navegación clara y accesible, podrás acercarte a los pensadores y preguntas que han moldeado nuestra manera de entender el mundo. <br><br>
+        Este sitio está pensado como una puerta de entrada a la reflexión filosófica, especialmente en torno a una de las preguntas más antiguas y esenciales de la humanidad: 
+        <strong>¿Cómo sabemos lo que sabemos?</strong>
+      </p>
+
+      <!-- Botón a guía -->
+      <div class="margen">
+        <ul>
+          <li onclick="mostrarParte(6)" class="boton-guia">Guía de la página</li>
+        </ul>
+      </div>
+      
+
+    </div>
+  </div>
+
+</section>
+
+                    <!-- Parte 1 -->
+                    <section class="parte">
+                         <h2>📘 ¿Qué es la Epistemología?</h2>
+  <p>
+    La <strong>epistemología</strong> es una rama de la filosofía que se ocupa del estudio del <strong>conocimiento humano</strong>, especialmente en lo que respecta a su <em>origen, validez, límites y naturaleza</em>. Su nombre proviene del griego <em>episteme</em> (conocimiento) y <em>logos</em> (estudio o discurso), lo que ya nos indica su propósito: <strong>entender cómo conocemos, cómo justificamos lo que sabemos y hasta qué punto ese conocimiento puede considerarse verdadero o confiable</strong>.
+  </p>
+  <p>
+    Estas preguntas hacen de la epistemología un campo esencial para el desarrollo del pensamiento crítico y la comprensión profunda de cómo funciona la ciencia y el conocimiento humano en general.
+  </p>
+
+  <h3>🎯 ¿Para qué sirve la Epistemología?</h3>
+  <ul>
+    <li><strong>Explora los límites del conocimiento:</strong> Reflexiona sobre cuánto y qué tan objetivamente podemos conocer la realidad.</li>
+    <li><strong>Evalúa críticamente los métodos científicos:</strong> Analiza si los métodos científicos son adecuados, neutrales y bien fundamentados.</li>
+    <li><strong>Promueve el diálogo entre corrientes del pensamiento:</strong> Enriquece el debate académico entre diversas visiones del conocimiento.</li>
+  </ul>
+
+  <h3>🧠 Tipos y Corrientes Epistemológicas</h3>
+  <h4>Tipos de epistemología</h4>
+  <ul>
+    <li><strong>Científica:</strong> Conocimiento basado en el método científico.</li>
+    <li><strong>Metacientífica:</strong> Reflexiona sobre los fundamentos filosóficos de la ciencia.</li>
+    <li><strong>Paracientífica:</strong> Examina formas de saber que no siguen el método científico tradicional.</li>
+  </ul>
+  <div style="flex: 1; min-width: 280px;">
+    <img src="primera.jpeg" alt="Ilustración sobre el conocimiento y la mente" style="width: 100%; max-width: 400px; height: auto; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); display: flex; float: right;">
+  </div>
+  <h4>Corrientes epistemológicas destacadas</h4>
+  <ul>
+    <li><strong>Empirismo lógico:</strong> Basado en la observación y el razonamiento lógico.</li>
+    <li><strong>Racionalismo:</strong> Defiende la razón como fuente principal de conocimiento.</li>
+    <li><strong>Constructivismo:</strong> El conocimiento se construye mediante la experiencia.</li>
+    <li><strong>Hermenéutica:</strong> Centrada en la interpretación de textos y símbolos.</li>
+    <li><strong>Posmodernismo:</strong> Rechaza verdades absolutas, favoreciendo múltiples perspectivas.</li>
+    <li><strong>Sociocrítica:</strong> Examina la influencia del poder e ideologías en el saber.</li>
+  </ul>
+
+  <h3>🧭 Paradigmas Epistemológicos</h3>
+  <ul>
+    <li><strong>Positivista:</strong> Busca explicaciones objetivas y medibles.</li>
+    <li><strong>Interpretativista:</strong> Enfocado en comprender significados subjetivos y experiencias.</li>
+    <li><strong>Constructivista:</strong> Considera que el conocimiento es una construcción personal y social.</li>
+  </ul>
+
+  <h3>🌱 Aplicación de la Epistemología</h3>
+  <p>
+    La epistemología tiene una gran relevancia en la <strong>educación y la ciencia</strong>:
+  </p>
+  <ul>
+    <li>Ayuda a elegir <strong>métodos de investigación</strong> adecuados.</li>
+    <li>Promueve una enseñanza más <strong>crítica y reflexiva</strong>.</li>
+    <li>Forma personas capaces de <strong>analizar, cuestionar y construir saberes</strong> desde una perspectiva ética y contextual.</li>
+  </ul>
+
+                    </section>
+                    
+                    <!-- Parte 2 -->
+                    <section class="parte">
+
+                        <h2>📚 ¿Qué pensaba Aristóteles sobre la ciencia?</h2>
+                        <p>
+                          Para <strong>Aristóteles</strong>, uno de los filósofos más influyentes de la historia, la <strong>ciencia</strong> representa la forma más elevada y rigurosa de conocimiento. No se trata solo de acumular datos o experiencias, sino de <strong>comprender las causas y principios que explican los fenómenos del mundo</strong>. Esta visión implica una búsqueda sistemática de la verdad basada en la <em>razón</em> y el <em>razonamiento lógico-deductivo</em>, especialmente a través del <strong>silogismo</strong>, una forma de argumentación que parte de premisas universales para llegar a conclusiones particulares.
+                        </p>
+                      
+                        <h3>🧩 Conceptos clave en la epistemología de Aristóteles</h3>
+                      
+                        <h4>📖 Las partes del saber</h4>
+                        <ul>
+                          <li><strong>Teórica:</strong> Busca el conocimiento por sí mismo. Estudia la realidad tal como es, incluyendo la física, la matemática y la metafísica.</li>
+                          <li><strong>Práctica:</strong> Orientada a la acción humana. Abarca disciplinas como la ética y la política, enfocadas en cómo debemos actuar.</li>
+                          <li><strong>Poética:</strong> Relacionada con la producción y la creación, como el arte, la retórica y la técnica (techné).</li>
+                        </ul>
+                      
+                        <h4>⚙️ El método científico aristotélico</h4>
+                        <ul>
+                          <li>Parte de <strong>principios generales</strong> aceptados racionalmente.</li>
+                          <li>Mediante el uso del <strong>silogismo</strong>, deduce conclusiones necesarias y coherentes.</li>
+                          <li>Busca <strong>explicaciones universales</strong>, dejando de lado la mera observación empírica.</li>
+                          <li>Organiza el conocimiento como un <strong>sistema ordenado y jerárquico</strong>.</li>
+                        </ul>
+                        
+                        <h3>🧠 Características de la ciencia según Aristóteles</h3>
+                        <ul>
+                          <li>Se basa en <strong>principios y causas</strong>, no solo en la experiencia sensible.</li>
+                          <li>Es un <strong>sistema lógico y coherente</strong> de conocimientos interrelacionados.</li>
+                          <li>Se <strong>distingue de la experiencia común</strong> por su profundidad, universalidad y fundamentación racional.</li>
+                          <li>Reconoce la existencia de <strong>diversas ciencias</strong>, cada una encargada de un aspecto específico de la realidad.</li>
+                        </ul>
+                      
+                        <h3>📚 Clasificación de las ciencias según Aristóteles</h3>
+                        <ul>
+                          <li><strong>Ciencias poéticas:</strong> Orientadas a la creación (arte, retórica, poesía).</li>
+                          <li><strong>Ciencias prácticas:</strong> Relacionadas con la acción (ética, política, economía).</li>
+                          <li><strong>Ciencias teóricas:</strong> Centradas en la contemplación y la búsqueda de la verdad (física, matemática, metafísica).</li>
+                        </ul>
+                      
+                        <div style="flex: 0 0 300px;">
+                          <img src="segundados.jpeg" alt="Clasificación aristotélica de las ciencias"  style="width: 100%; max-width: 400px; height: auto; border-radius: 50px; display: flex; float:initial; padding: 15px;">
+                        </div>
+                        <h3>🧭 Tipos de conocimiento en Aristóteles</h3>
+                        <ul>
+                          <li><strong>Episteme (teórico):</strong> Saber científico, busca verdades necesarias y universales.</li>
+                          <li><strong>Phronesis (práctico):</strong> Saber ético, orientado a actuar correctamente en contextos concretos.</li>
+                          <li><strong>Techné (productivo):</strong> Saber técnico, enfocado en la creación de objetos útiles o artísticos.</li>
+                        </ul>
+                      
+                        <div style="flex: 0 0 300px;">
+                          <img src="segundauno.jpeg" alt="Silogismo de Aristóteles"  style="width: 100%; max-width: 400px; height: auto; border-radius: 50px; display: flex; float: right; padding: 3%;">
+                        </div>
+                        <h3>🔍 Clasificación del conocimiento</h3>
+                      
+                        <h4>Según su origen</h4>
+                        <ul>
+                          <li><strong>Empírico:</strong> Nace de la experiencia y la observación.</li>
+                          <li><strong>A priori:</strong> Independiente de la experiencia; basado únicamente en la razón.</li>
+                          <li><strong>A posteriori:</strong> Derivado de la experiencia sensible.</li>
+                        </ul>
+                      
+                        <h4>Según su función</h4>
+                        <ul>
+                          <li><strong>Explícito:</strong> Puede expresarse, transmitirse y documentarse.</li>
+                          <li><strong>Público:</strong> Es accesible y compartido abiertamente en la sociedad.</li>
+                        </ul>
+                      
+                        <h4>Según su campo de estudio</h4>
+                        <ul>
+                          <li><strong>Científico:</strong> Sistematizado, basado en observación y análisis.</li>
+                          <li><strong>Filosófico:</strong> Razonado, reflexiona sobre causas últimas y el sentido del saber.</li>
+                          <li><strong>Matemático:</strong> Abstracto, trabaja con símbolos, formas y números.</li>
+                        </ul>
+      
+                      
+                        <h3>🌌 Otros tipos de conocimiento considerados por la tradición</h3>
+                        <ul>
+                          <li><strong>Mágico:</strong> Basado en rituales y creencias sobrenaturales.</li>
+                          <li><strong>Mítico:</strong> Explica el mundo a través de relatos simbólicos y narrativos.</li>
+                          <li><strong>Intuitivo:</strong> Nace de una comprensión directa e inmediata.</li>
+                          <li><strong>Religioso o espiritual:</strong> Fundado en la fe, revelación o experiencia mística.</li>
+                          <li><strong>Animista:</strong> Considera que todos los seres tienen alma o espíritu.</li>
+                          <li><strong>Vulgar (sentido común):</strong> Basado en la experiencia cotidiana sin reflexión crítica.</li>
+                          <li><strong>Pragmático o práctico:</strong> Guiado por la utilidad y la resolución de problemas concretos.</li>
+                        </ul>
+                    </section>
+                    
+                    <!-- Parte 3 -->
+                    <section class="parte">
+                        <h2>💻 Epistemología en la Ingeniería de Sistemas</h2>
+
+                        <p>
+                          La <strong>epistemología</strong>, entendida como el estudio del conocimiento y su validez, desempeña un papel clave en la <strong>Ingeniería de Sistemas</strong>, ya que esta disciplina trabaja con <em>sistemas complejos</em> que no solo son técnicos, sino también sociales, humanos e interdisciplinarios.
+                        </p>
+                      
+                        <h3>🎯 Objetivo</h3>
+                        <p>
+                          Comprender cómo se fundamenta epistemológicamente la Ingeniería de Sistemas y cómo aplica el conocimiento para <strong>diseñar soluciones técnicas con impacto real</strong>.
+                        </p>
+                      
+                        <h3>📐 Estatuto Epistemológico</h3>
+                        <ul>
+                          <li>Se refiere a los <strong>fundamentos del conocimiento científico</strong> en esta ingeniería.</li>
+                          <li>Implica cuestionar cómo se construyen soluciones tecnológicas en <strong>entornos interconectados y cambiantes</strong>.</li>
+                          <li>A diferencia de las ciencias naturales, no busca explicar fenómenos, sino <strong>intervenir y mejorar sistemas</strong>.</li>
+                        </ul>
+                      
+                        <h3>🔍 Implicaciones Epistemológicas</h3>
+                        <ul>
+                          <li><strong>Teoría del conocimiento propia:</strong> Se basa en la <em>filosofía de la tecnología</em>, enfocándose en la intervención más que en la explicación.</li>
+                          <li><strong>Métodos heurísticos:</strong> Uso de modelos, algoritmos y prueba/error para enfrentar entornos inciertos (por ejemplo, redes o ciberseguridad).</li>
+                          <li><strong>Síntesis de ciencia y tecnología:</strong> Aplica conceptos de <em>matemáticas, informática y teoría de sistemas</em>.</li>
+                          <li><strong>Consideración del contexto social:</strong> El desarrollo tecnológico implica <em>usuarios, culturas y organizaciones</em>.</li>
+                          <li><strong>Resolución de problemas complejos:</strong> No se enfoca solo en lo tangible, sino también en estructuras y relaciones sistémicas.</li>
+                        </ul>
+                        <div style="flex: 0 0 300px;">
+                          <img src="tercera.jpeg" alt="Silogismo de Aristóteles"  style="width: 100%; max-width: 400px; height: auto; border-radius: 50px; display: flex; float: right; padding: 3%;">
+                        </div>
+                        <h3>📚 Fundamentos Epistemológicos</h3>
+                        <p>
+                          La <strong>Teoría General de Sistemas (TGS)</strong> es el marco principal. Permite ver software, redes u organizaciones como sistemas interrelacionados.
+                        </p>
+                        <p>Además, se complementa con:</p>
+                        <ul>
+                          <li><strong>Cibernética:</strong> Estudia el control y la retroalimentación de sistemas.</li>
+                          <li><strong>Teoría de la Información:</strong> Analiza cómo se procesan y comunican datos.</li>
+                          <li><strong>Teoría de Juegos:</strong> Considera estrategias de decisión en múltiples agentes.</li>
+                        </ul>
+                      
+                        <h4>🧠 Tres pilares de formación en Ingeniería de Sistemas</h4>
+                        <ul>
+                          <li><strong>Pensamiento algorítmico:</strong> Para crear soluciones estructuradas y eficientes.</li>
+                          <li><strong>Apropiación tecnológica:</strong> Uso consciente y ético de la tecnología.</li>
+                          <li><strong>Pensamiento sistémico:</strong> Comprender las relaciones entre elementos y su impacto global.</li>
+                        </ul>
+                      
+                        <h3>🔧 ¿Cómo se aplica esta epistemología?</h3>
+                        <p>
+                          La Ingeniería de Sistemas combina teoría y práctica para <strong>diseñar, implementar y optimizar soluciones tecnológicas complejas</strong>. Va más allá de lo técnico, integrando <em>pensamiento crítico, juicio ético y adaptación constante</em>.
+                        </p>
+                        <p>
+                          Sus intervenciones tienen un <strong>impacto humano, organizacional y social</strong>, por lo que debe haber una comprensión profunda del conocimiento que se aplica.
+                        </p>
+                      
+                        <h3>🏛️ Relación con la Pirámide de Maslow</h3>
+                        <p>
+                          Las soluciones tecnológicas de la Ingeniería de Sistemas contribuyen a satisfacer diversas <strong>necesidades humanas</strong>:
+                        </p>
+                        <ul>
+                          <li><strong>Fisiológicas:</strong> Apps de salud, monitoreo ambiental, gestión de recursos.</li>
+                          <li><strong>Seguridad:</strong> Sistemas bancarios, cifrado de datos, vigilancia tecnológica.</li>
+                          <li><strong>Sociales:</strong> Plataformas de comunicación, redes colaborativas.</li>
+                          <li><strong>Reconocimiento:</strong> Redes profesionales, reputación digital.</li>
+                          <li><strong>Autorrealización:</strong> Educación online, IA personalizada, software creativo.</li>
+                        </ul>
+                      
+                        <h3>✅ Conclusión</h3>
+                        <p>
+                          La epistemología en Ingeniería de Sistemas permite entender cómo se <strong>genera, valida y aplica el conocimiento</strong> para resolver problemas reales en un mundo digital e interconectado. Su enfoque integrador entre ciencia, tecnología y sociedad es clave para <strong>crear soluciones dinámicas, adaptativas y éticas</strong>.
+                        </p>
+                    </section>
+                    
+                    <!-- Parte 4: Libros -->
+                    <section class="parte" id="libros">
+                        <h1>Libros Recomendados</h1>
+                        
+                        <div class="libro">
+                            <h2>Crítica de la razón pura – Immanuel Kant</h2>
+                            <a href="https://docs.enriquedussel.com/txt/Textos_200_Obras/Aime_zapatistas/C.Razon_pura-Immanuel_Kant.pdf" target="_blank">
+                                <img src="data:image/jpeg;base64,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">
+                            </a>
+                            <p>Kant examina los límites del conocimiento humano y funda el idealismo trascendental.</p>
+                        </div>
+                        
+                        <div class="libro">
+                            <h2>Meditaciones – René Descartes</h2>
+                            <a href="https://archivos.juridicas.unam.mx/www/bjv/libros/4/1566/4.pdf" target="_blank">
+                                <img src="https://images.cdn3.buscalibre.com/fit-in/360x360/22/a0/22a044d44069433003b3d93f64e8de41.jpg">
+                            </a>
+                            <p>Descartes busca una base firme para el conocimiento con su famosa frase “pienso, luego existo”.</p>
+                        </div>
+                        
+                        <div class="libro">
+                            <h2>Investigación sobre el entendimiento humano – David Hume</h2>
+                            <a href="https://trabajosocialucen.wordpress.com/wp-content/uploads/2012/05/david-hume-investigaciones-sobre-el-conocimiento-humano.pdf" target="_blank">
+                                <img src="https://editoriallosada.com/wp-content/uploads/100-191x300.webp" alt="Hume libro">
+                            </a>
+                            <p>Hume analiza la experiencia y la costumbre como base del conocimiento.</p>
+                        </div>
+                        
+                        <div class="libro">
+                            <h2>Principios del conocimiento humano – George Berkeley</h2>
+                            <a href="https://www.insumisos.com/M4T3R14L/BD/Berkeley-George/Principios%20del%20conocimiento%20humano.PDF" target="_blank">
+                                <img src="https://editoriallosada.com/wp-content/uploads/056-191x300.webp" alt="Berkeley libro">
+                            </a>
+                            <p>Berkeley defiende el idealismo, afirmando que “ser es ser percibido”.</p>
+                        </div>
+                    </section>
+                    <section class="parte">
+                      <section>
+                        <h1>Epistemología</h1>
+                        <h2>Manual de Usuario</h2>
+                        <p>1° Edición Mayo de 2025</p>
+                        <p>Todos los derechos reservados. Es prohibido la reimpresión o el uso de este material por escrito sin autorización.</p>
+                        <p>Impreso en Colombia</p>
+                      </section>
+                    
+                      <!-- Introducción -->
+                      <section>
+                        <h2>Introducción</h2>
+                        <p>
+                          Este manual de usuario ha sido desarrollado con el propósito de guiar al lector en el uso correcto de la página web educativa "Introducción a la Epistemología".
+                          La plataforma fue creada como una herramienta didáctica para facilitar el aprendizaje de los conceptos básicos de la epistemología, una rama fundamental de la filosofía que se ocupa del estudio del conocimiento.
+                          La interfaz de la página ha sido diseñada para ser simple, clara y funcional, permitiendo al usuario recorrer el contenido mediante un menú lateral y secciones bien diferenciadas.
+                          Este manual proporciona las indicaciones necesarias para comprender la estructura, funcionalidad y aprovechamiento del contenido de la página.
+                          Se recomienda leer atentamente cada sección del presente documento antes de utilizar la plataforma, especialmente si se utilizará con fines educativos o evaluativos.
+                        </p>
+                      </section>
+                    
+                      <!-- Advertencia -->
+                      <section>
+                        <h2>Advertencia</h2>
+                        <p>
+                          Este manual está diseñado exclusivamente con fines educativos y de orientación para el uso de la página web "Introducción a la Epistemología".
+                        </p>
+                        <ul>
+                          <li>No reemplaza libros de texto oficiales ni fuentes especializadas en filosofía.</li>
+                          <li>El contenido puede contener resúmenes y simplificaciones para facilitar la comprensión.</li>
+                          <li>El uso de esta página no requiere conexión constante a internet, salvo para acceder a enlaces externos sugeridos.</li>
+                          <li>Cualquier modificación o distribución del sitio web o del manual debe contar con autorización del autor o del docente responsable del proyecto.</li>
+                        </ul>
+                        <p>El autor no se hace responsable por un mal uso del contenido fuera del ámbito educativo.</p>
+                      </section>
+                    
+                      <!-- Índice -->
+                      <section>
+                        <h2>Índice</h2>
+                        <ul>
+                          <li>Manual de Usuario ................................................ pág. 1</li>
+                          <li>Edición y detalles técnicos ................................. pág. 2</li>
+                          <li>Introducción ......................................................... pág. 3</li>
+                          <li>Advertencia ........................................................ pág. 4</li>
+                          <li>Índice ................................................................ pág. 5</li>
+                          <li>¿Qué es esta página? ........................................ pág. 6</li>
+                          <li>Estructura de la página ....................................... pág. 7</li>
+                          <li>Contenido por sección ........................................ pág. 8</li>
+                          <li>Parte 1: Introducción a la Epistemología ........ pág. 8</li>
+                          <li>Parte 2: Corrientes Filosóficas ......................... pág. 9</li>
+                          <li>Parte 3: Problemas Epistemológicos ............. pág. 10</li>
+                          <li>Libros recomendados ....................................... pág. 11</li>
+                          <li>Navegación paso a paso .................................... pág. 12</li>
+                          <li>Recomendaciones de uso ................................ pág. 13</li>
+                          <li>Observaciones finales ....................................... pág. 14</li>
+                          <li>Firma del autor .................................................. pág. 15</li>
+                        </ul>
+                      </section>
+                    
+                      <!-- Contenido Principal -->
+                      <section>
+                        <h2>Proyecto Web: Introducción a la Epistemología</h2>
+                        <p>Nombre del estudiante: ___________________________</p>
+                        <p>Curso/Asignatura: ___________________________</p>
+                        <p>Fecha: ___________________________</p>
+                    
+                        <h3>📘 ¿Qué es esta página web?</h3>
+                        <p>
+                          Esta página está diseñada como un recurso educativo para aprender sobre la epistemología, la rama de la filosofía que estudia el conocimiento.
+                          Su propósito es ofrecer información clara, organizada y atractiva visualmente sobre los temas fundamentales de esta disciplina.
+                        </p>
+                    
+                        <h3>🖥️ Estructura General de la Página</h3>
+                        <p>La página web se organiza en dos secciones principales:</p>
+                    
+                        <h4>🔹 Panel de navegación lateral</h4>
+                        <p>
+                          Ubicado a la izquierda de la pantalla, permite acceder rápidamente a las distintas partes del contenido. Se mantiene visible mientras se navega.
+                          Contiene los siguientes botones:
+                        </p>
+                        <ul>
+                          <li>Inicio: introducción a la página</li>
+                          <li>¿Qué es la epistemología?: Primer contenido.</li>
+                          <li>¿Qué pensaba Aristóteles sobre la ciencia?: Corrientes Filosóficas.</li>
+                          <li>Epistemología en la ingeniería de sistemas</li>
+                          <li>Libros: Pequeña librería</li>
+                        </ul>
+                    
+                        <h4>🔹 Área de contenido principal</h4>
+                        <p>
+                          Se encuentra a la derecha del menú. Es donde aparece la información correspondiente a cada sección del sitio. Se actualiza dinámicamente al hacer clic en las opciones del panel lateral.
+                        </p>
+                    
+                        <h3>Contenido de Cada Parte</h3>
+                    
+                        <h4>➤ Parte 1: Introducción a la Epistemología</h4>
+                        <ul>
+                          <li>Explicación de qué es la epistemología.</li>
+                          <li>Su relación con el conocimiento, la verdad y la justificación.</li>
+                          <li>Filósofos importantes: Platón, Aristóteles, Hume, Kant.</li>
+                          <li>Enlaces a páginas externas para ampliar el conocimiento.</li>
+                        </ul>
+                    
+                        <h4>➤ Parte 2: Corrientes Filosóficas</h4>
+                        <ul>
+                          <li>Racionalismo: la razón como fuente principal del saber.</li>
+                          <li>Empirismo: la experiencia como origen del conocimiento.</li>
+                          <li>Constructivismo: el conocimiento se construye en interacción con el mundo.</li>
+                        </ul>
+                    
+                        <h4>➤ Parte 3: Problemas Epistemológicos</h4>
+                        <ul>
+                          <li>¿Qué significa conocer?</li>
+                          <li>¿Cómo sabemos si algo es verdad?</li>
+                          <li>¿Se puede tener certeza absoluta?</li>
+                          <li>Introducción al escepticismo y a los límites del saber humano.</li>
+                        </ul>
+                    
+                        <h4>➤ Libros Recomendados</h4>
+                        <ul>
+                          <li><strong>Crítica de la razón pura</strong> – Kant</li>
+                          <li><strong>Meditaciones</strong> – Descartes</li>
+                          <li><strong>Tratado sobre el entendimiento humano</strong> – Hume</li>
+                          <li><strong>Principios del conocimiento humano</strong> – Berkeley</li>
+                        </ul>
+                    
+                        <h3>Cómo Navegar la Página</h3>
+                        <ol>
+                          <li>Abrir la página en el navegador.</li>
+                          <li>Usar el panel izquierdo para seleccionar la parte que se desea leer.</li>
+                          <li>Leer el contenido que aparece a la derecha.</li>
+                          <li>Volver al menú en cualquier momento para cambiar de sección.</li>
+                          <li>Explorar los enlaces externos si se desea ampliar la información.</li>
+                        </ol>
+                    
+                        <h3>Diseño y Usabilidad</h3>
+                        <ul>
+                          <li>Colores suaves y tipografía clara para facilitar la lectura.</li>
+                          <li>Diseño adaptable a celulares, tablets y computadoras.</li>
+                          <li>Botones con efecto visual para indicar la sección activa.</li>
+                          <li>Estructura minimalista que guía la atención hacia el contenido.</li>
+                        </ul>
+                    
+                        <h3>✅ Recomendaciones para el Usuario</h3>
+                        <ul>
+                          <li>Leer cada sección con calma para asimilar los conceptos.</li>
+                          <li>Utilizar los enlaces a enciclopedias si se desea investigar más.</li>
+                          <li>Tomar apuntes si se usa la página como recurso de estudio.</li>
+                          <li>Consultar los libros recomendados para profundizar en los autores.</li>
+                        </ul>
+                    
+                        <h3>🖊️ Observaciones del Autor</h3>
+                        <p>
+                          Esta página fue creada con fines educativos y como introducción básica a la epistemología. Puede ser utilizada por estudiantes, docentes o cualquier persona interesada en filosofía. Se recomienda complementar con otras fuentes académicas.
+                        </p>
+                    
+                        <h3>✍️ Firma del Responsable del Proyecto</h3>
+                        <p>Nombre y Apellido: _____________________________________</p>
+                        <p>Firma: _____________________________________</p>
+                        <p>Fecha de entrega: _____________________________________</p>
+                      </section>
+                    </section>
+
+                    <!-- Más información -->
+                    <footer style="display: flex; flex-wrap: wrap; justify-content: space-between; padding: 20px; background-color: #f0f0f0; border-top: 2px solid #ccc; font-family: Arial, sans-serif; font-size: 14px;">
+    
+                      <!-- Sección izquierda: Más fuentes -->
+                      <div style="flex: 1 1 300px; margin-right: 20px;">
+                          <h2>Más sobre Epistemología</h2>
+                          <ul style="list-style-type: none; padding-left: 0;">
+                              <li><a href="https://es.wikipedia.org/wiki/Epistemolog%C3%ADa" target="_blank">Wikipedia - Epistemología</a></li>
+                              <li><a href="https://www.redalyc.org/pdf/101/10101802.pdf" target="_blank">Redalyc - ¿Qué es la epistemología?</a></li>
+                              <li><a href="https://www.iep.utm.edu/epistemo/" target="_blank">Internet Encyclopedia of Philosophy</a></li>
+                              <li><a href="https://plato.stanford.edu/entries/epistemology/" target="_blank">Stanford Encyclopedia of Philosophy</a></li>
+                              <li><a href="https://filosofia.laguia2000.com/ramas/epistemologia" target="_blank">La Guía 2000 - Epistemología</a></li>
+                              <li><a href="https://www.britannica.com/topic/epistemology" target="_blank">Encyclopedia Britannica</a></li>
+                          </ul>
+                      </div>                  
+                      <!-- Sección derecha: Créditos -->
+                      <div style="flex: 1 1 250px;">
+                          <h2>Créditos</h2>
+                          <p style="margin: 5px 0;">Carlos Andrés Moreno Caicedo</p>
+                          <p style="margin: 5px 0;">Yedir Mosquera Mena</p>
+                          <p style="margin: 5px 0;">Walter Steven Perea González</p>
+                          <p style="margin: 5px 0;">Alejandro Quejada Renteria</p>
+                          <p style="margin: 10px 0 0;">Programa de Epistemología</p>
+                          <p style="margin: 5px 0;">Ingeniería de Sistemas - III Semestre</p>
+                         
+                      </div>
+                  
+                  </footer>
+
+                </div>
+            </main>
+            
+            <script src="trabajo.js"></script>
+        </div>
+        </body>
+        </html>
